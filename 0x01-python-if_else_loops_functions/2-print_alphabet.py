@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    letters = chr(i)
-    print(f"{letters}", end=' ')
+    print(f"{i:c}", end=' ')
 
