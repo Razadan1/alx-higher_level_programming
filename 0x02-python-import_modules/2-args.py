@@ -9,4 +9,4 @@ elif Args > 1:
     for i in range(1, Args + 1):
         print("{}: {}".format(i, sys.argv[i]))
 else:
-    print("{} argument.".format(Args))
+    print("{} arguments.".format(Args))
