@@ -1,0 +1,46 @@
+# Test Documentation for MyList Class
+
+## Introduction:
+This test documentation provides test cases and scenarios for testing the functionalities of the `MyList` class, which is an inherited class from the built-in `list` class. The primary purpose of this class is to print a sorted list in ascending order using the `print_sorted` method.
+
+## Setup:
+Import the `MyList` class from the module named `1-my_list` to use it in your testing environment.
+
+
+MyList = __import__('1-my_list').MyList
+
+
+## Test Cases:
+
+### Test Case 1: Sorting Positive Numbers
+- **Scenario:** Sorting a list containing positive numbers.
+- **Input:** `MyList([1, 4, 2, 3, 5])`
+- **Expected Output:** The sorted list should be `[1, 2, 3, 4, 5]`.
+
+### Test Case 2: Sorting an Empty List
+- **Scenario:** Sorting an empty list.
+- **Input:** `MyList([])`
+- **Expected Output:** The sorted list should be `[]`.
+
+### Test Case 3: Sorting Negative Numbers
+- **Scenario:** Sorting a list containing negative numbers.
+- **Input:** `MyList([-1, -4, -2, -3, -5])`
+- **Expected Output:** The sorted list should be `[-5, -4, -3, -2, -1]`.
+
+### Test Case 4: Sorting Mixed Numbers
+- **Scenario:** Sorting a list containing both positive and negative numbers.
+- **Input:** `MyList([-1, 4, -2, 3, -5])`
+- **Expected Output:** The sorted list should be `[-5, -2, -1, 3, 4]`.
+
+### Test Case 5: Sorting Strings
+- **Scenario:** Sorting a list containing strings.
+- **Input:** `MyList(['apple', 'banana', 'cherry', 'date'])`
+- **Expected Output:** The sorted list should be `['apple', 'banana', 'cherry', 'date']`.
+
+## Additional Notes:
+- The `MyList` class inherits all functionalities from the built-in `list` class and adds the `print_sorted` method to print a sorted version of the list.
+- Ensure that all test cases cover different scenarios, including edge cases and special conditions.
+- Debugging information may be included in case of test failures to aid in troubleshooting.
+```
+
+This test documentation outlines various test cases for the `MyList` class, covering scenarios such as sorting positive numbers, negative numbers, mixed numbers, an empty list, and strings. It also provides additional notes for clarity and guidance during testing.
