@@ -2,7 +2,6 @@
 """ This function defines a student bypublic attributes"""
 
 
-
 class Student:
     def __init__(self, first_name, last_name, age):
         """ The main function for instanciating the attributes"""
