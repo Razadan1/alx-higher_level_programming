@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ A function that returns a list of integers in pascal triangle"""
 
+
 def pascal_triangle(n):
     """print pascal"""
     p_triangle = [[0]*i for i in range(1, n+1)]
