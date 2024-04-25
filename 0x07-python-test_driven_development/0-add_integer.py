@@ -4,8 +4,8 @@
 
 def add_integer(a, b=98):
     """ Adds two integers"""
-    if type(a) != float and type(a) != int:
+    if not isinstance(a, (float, int)):
         raise TypeError("a must be an integer")
-    if type(b) != int and type(b) != float:
+    if not isinstance(b, (float, int)):
         raise TypeError("b must be an integer")
     return int(a + b)
